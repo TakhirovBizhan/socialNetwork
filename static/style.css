@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1024px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
