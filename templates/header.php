@@ -11,6 +11,7 @@
     <div class="header__wrapper">
         <nav>
             <ul class="nav__list">
+                <li><a href="">Профиль</a></li>
                 <li><a href="">Сообщения</a></li>
                 <li><a href="friends.php">Друзья</a></li>
                 <li><a href="">Лента</a></li>
