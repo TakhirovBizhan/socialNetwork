@@ -11,13 +11,13 @@
     <div class="header__wrapper">
         <nav>
             <ul class="nav__list">
-                <li><a href="">Профиль</a></li>
-                <li><a href="">Сообщения</a></li>
-                <li><a href="friends.php">Друзья</a></li>
-                <li><a href="">Лента</a></li>
-                <li><a href="">Мои лайки</a></li>
-                <li><a href="">Настройки</a></li>
-                <li><a href="">Выйти</a></li>
+                <li><a href="<?=dirname($_SERVER['SCRIPT_NAME']);?>/profile.php">Профиль</a></li>
+                <li><a href="messages.php">Сообщения</a></li>
+                <li><a href="<?=dirname($_SERVER['SCRIPT_NAME']);?>/friends">Друзья</a></li>
+                <li><a href="home.php">Лента</a></li>
+                <li><a href="likes.php">Мои лайки</a></li>
+                <li><a href="config.php">Настройки</a></li>
+                <li><a href="exit.php">Выйти</a></li>
             </ul>
         </nav>
     </div>
