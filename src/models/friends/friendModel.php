@@ -10,6 +10,18 @@ class Friend extends AbstactModel {
     protected $status;
     protected $created_At;
 
+    public function getStatus() {
+        return $this->status;
+    }
+
+    public function setStatus($status) {
+        $this->status = $status;
+    }
+
+    public function getCreated() {
+      return $this->created_At;  
+    }
+
     protected static function getTableName()  {
         return 'friends';
     }

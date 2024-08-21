@@ -13,6 +13,22 @@ class Post extends AbstactModel{
     protected static function getTableName()  {
         return 'posts';
     }
+
+    public function getCreated_at() {
+        return $this->created_at;
+    }
+
+    public function getContent() {
+        return $this->content;
+    }
+
+    public function setContent($content) {
+        $this->content = $content;
+    }
+
+    public function getUpdated_at() {
+        return $this->updated_at;
+    }
 }
 
 ?>

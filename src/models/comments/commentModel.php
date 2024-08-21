@@ -12,6 +12,23 @@ class Comment extends AbstactModel {
     protected $created_At;
     protected $updated_at;
 
+    public function GetCreatedAt() {
+        return $this->created_At; 
+    }
+
+    public function GetUpdatedAt() {
+        return $this->UpdatedAt;
+    }
+
+    public function GetContent() {
+        return $this->content;
+    }
+
+    public function SetContent($content) {
+        $this->content = $content;
+    }
+
+
     protected static function getTableName()  {
         return 'comments';
     }
